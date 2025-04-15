@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input[type="file"] {
+    margin-right: 5%;
+    font-size: 1vw;
+}
+
+button {
+    background-color:teal;
+    color: white;
+    font-size: 0.8vw;
+    font-weight: bold;
+    text-shadow: 0 0 0.1vw aqua;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.color-container {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.color-box {
+    width: 80px; 
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.prediction-text {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
